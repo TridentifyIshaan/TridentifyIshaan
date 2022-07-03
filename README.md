@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning Python & SQL from school.
 - 💞️ I’m looking forward to learn anything if you teach me in free.
 - 📫 How to reach me? On my discord account 乛 | Ishaan々#9373
+- 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
 <!---
 TridentifyIshaan/TridentifyIshaan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

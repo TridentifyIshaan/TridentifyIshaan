@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @TridentifyIshaan
 - 👀 I’m interested in learning coding and making apps, bots, websites, etc.
-- 🌱 I’m currently learning Python in school which I am not able to understand.
-- 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me? On my discord account 乛〄 🔱| Finity Ishaan々 #1730
+- 🌱 I’m currently learning Python & SQL from school.
+- 💞️ I’m looking forward to learn anything if you teach me in free.
+- 📫 How to reach me? On my discord account 乛 | Ishaan々#9373
 
 <!---
 TridentifyIshaan/TridentifyIshaan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

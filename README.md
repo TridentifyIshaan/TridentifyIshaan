@@ -1,8 +1,6 @@
 # 💫 About Me:
-🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning C & Python.<br>💬 Ask me about my interests.<be>
-💞️ I’m looking forward to learn anything if you teach me in free.
-📫 How to reach me? On my discord account zfinity_007
-💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
+🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning C & Python.<br>💬 Ask me about my interests.<br>💞️ I’m looking forward to learn anything if you teach me in free.
+<br> 📫 How to reach me? On my discord account zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com <be>
 
 
 

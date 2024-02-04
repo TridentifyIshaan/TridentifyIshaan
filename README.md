@@ -1,12 +1,10 @@
-- 👋 Hi, I’m @TridentifyIshaan
-- 👀 I’m interested in learning coding and making websites, etc.
-- 🌱 I’m currently learning C, Python.
+# 💫 About Me:
+🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning C & Python.<br>💬 Ask me about my interests.<be>
 - 💞️ I’m looking forward to learn anything if you teach me in free.
 - 📫 How to reach me? On my discord account zfinity_007
 - 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
-# 💫 About Me:
-🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning Blockchain.<br>💬 Ask me about my interests.<br>
+
 
 [![zeddkhan03's Web3 | Identity](https://stats.quine.sh/zeddkhan03/web3?theme=light)](https://quine.sh)
 

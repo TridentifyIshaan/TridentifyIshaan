@@ -1,10 +1,14 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7)
-<h1 align="center"> Hi there 👋</h1>
+<h1 align="left"> Hi there 👋</h1>
 
 ### 💫 About Me:
-- 🔭 I’m currently working on Web Development.<br> - 🌱 I’m currently learning C & Python. <br> - 💞️ I’m looking forward to learning anything if you teach me for free.
-<br> - 📫 How to reach me? On my discord account zfinity_007 <br> - 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com <br> - ♾️ Interested in mythology and cultural roots
-<br> - 🧠 Interested in Geopolitics <br> - 🤖 Interested in learning more about Artificial Intelligence
+- 🔭 I’m currently working on Web Development.
+- 🌱 I’m currently learning C & Python.
+- 💞️ I’m looking forward to learning anything if you teach me for free.
+- ♾️ Interested in mythology and cultural roots
+- 🧠 Interested in Geopolitics
+- 🤖 Interested in learning more about Artificial Intelligence
+- 📫 How to reach me? On my discord account zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
 
 ### 🌐 Socials:

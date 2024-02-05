@@ -10,6 +10,7 @@
 - 🤖 Interested in learning more about Artificial Intelligence
 - 📫 How to reach me? On my discord account zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
+![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
 ### 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/sci_boy007/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/allfinity/) 

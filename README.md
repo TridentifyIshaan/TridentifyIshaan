@@ -36,7 +36,7 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=TridentifyIshaan&icon=0&color=0)](https://visitcount.itsvg.in)
 
-###Contact - 📫 How to reach me?
+### Contact - 📫 How to reach me?
 
 <img src="https://github.com/ChaosXYZ/ChaosXYZ/blob/main/discord.png?raw=true" align="left" width=25 /> zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 

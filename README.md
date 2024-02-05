@@ -40,7 +40,8 @@
 
 <img src="https://github.com/ChaosXYZ/ChaosXYZ/blob/main/discord.png?raw=true" align="left" width=25 /> zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
-![snake gif] (https://github.com/TridentifyIshaan/TridentifyIshaan/blob/output/github-contribution-grid-snake.gif)
+![snake gif]
+(https://github.com/TridentifyIshaan/TridentifyIshaan/blob/output/github-contribution-grid-snake.gif)
 
 <!---
 TridentifyIshaan/TridentifyIshaan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

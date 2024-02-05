@@ -4,11 +4,11 @@
 
 
 
-[![TridentifyIshaan's Web3 | Identity](https://stats.quine.sh/TridentifyIshaan/web3?theme=light)](https://quine.sh)
+[![TridentifyIshaan's Web3 | Identity](https://stats.quine.sh/zedd03/web3?theme=light)](https://quine.sh)
 
-[![TridentifyIshaan's GitHub | Stats](https://stats.quine.sh/TridentifyIshaan/github?theme=light)](https://quine.sh)
+[![TridentifyIshaan's GitHub | Stats](https://stats.quine.sh/zedd03/github?theme=light)](https://quine.sh)
 
-[![TridentifyIshaan's GitHub | Languages Over Time](https://stats.quine.sh/TridentifyIshaan/languages-over-time?theme=dark)](https://quine.sh)
+[![TridentifyIshaan's GitHub | Languages Over Time](https://stats.quine.sh/zedd03/languages-over-time?theme=dark)](https://quine.sh)
 
 
 ## 🌐 Socials:

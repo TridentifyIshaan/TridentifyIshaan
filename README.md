@@ -7,7 +7,7 @@
 - 💞️ I’m looking forward to learning anything if you teach me for free.
 - ♾️ Interested in mythology and cultural roots
 - 🧠 Interested in Geopolitics
-- 🤖 Interested in learning more about Artificial Intelligence
+- 🤖 Interested in learning more about Artificial Intelligence, Data Science and Big Data Analytics
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 

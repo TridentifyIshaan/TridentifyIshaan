@@ -11,7 +11,7 @@
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
-[![Alaric7011's GitHub Stats](https://stats.quine.sh/TridentifyIshaan/github?theme=light)](https://quine.sh)
+[![TridentifyIshaan's GitHub Stats](https://stats.quine.sh/TridentifyIshaan/github?theme=light)](https://quine.sh)
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 

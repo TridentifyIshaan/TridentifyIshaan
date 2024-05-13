@@ -42,7 +42,7 @@
 
 ### Contact - 📫 How to reach me?
 
-<img src="https://github.com/ChaosXYZ/ChaosXYZ/blob/main/discord.png?raw=true" align="left" width=25 /> zfinity_007 <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
+![zfinity_007](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
 
 ![alt text](https://github.com/TridentifyIshaan/TridentifyIshaan/blob/output/github-contribution-grid-snake.svg)
 

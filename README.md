@@ -26,9 +26,9 @@
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
 ### 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TridentifyIshaan&theme=radical&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=TridentifyIshaan&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TridentifyIshaan&theme=radical&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+![TridentifyIshaan's Stats](https://github-readme-stats.vercel.app/api?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=true&count_private=true)<br>
+![TridentifyIshaan's Streak](https://github-readme-streak-stats.herokuapp.com/?user=TridentifyIshaan&theme=algolia&hide_border=true)<br>
+![TridentifyIshaan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=true&layout=compact)<br>
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 

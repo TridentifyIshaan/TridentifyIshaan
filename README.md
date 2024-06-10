@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1)
 <h1 align="left"> Hi there 👋</h1>
 
 ### 💫 About Me:

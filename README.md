@@ -26,9 +26,9 @@
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
 ### 📊 GitHub Stats:
-![TridentifyIshaan's Stats](https://github-readme-stats.vercel.app/api?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=true&count_private=true)<br>
-![TridentifyIshaan's Streak](https://github-readme-streak-stats.herokuapp.com/?user=TridentifyIshaan&theme=algolia&hide_border=true)<br>
-![TridentifyIshaan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=true&layout=compact)<br>
+![TridentifyIshaan's Stats](https://github-readme-stats.vercel.app/api?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=false&count_private=true)<br>
+![TridentifyIshaan's Streak](https://github-readme-streak-stats.herokuapp.com/?user=TridentifyIshaan&theme=algolia&hide_border=false)<br>
+![TridentifyIshaan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TridentifyIshaan&theme=algolia&show_icons=true&hide_border=false&layout=compact)<br>
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 

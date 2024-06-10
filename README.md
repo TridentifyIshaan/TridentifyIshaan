@@ -43,7 +43,6 @@
 ### Contact - 📫 How to reach me?
 
 ![Discord](https://img.shields.io/badge/zfinity_007-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
-
 ![alt text](https://github.com/TridentifyIshaan/TridentifyIshaan/blob/output/github-contribution-grid-snake.svg)
 
 <!---

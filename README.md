@@ -12,6 +12,7 @@
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 
 [![TridentifyIshaan's GitHub | Stats](https://stats.quine.sh/TridentifyIshaan/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=TridentifyIshaan)
+<img align="right" alt="coding" width="200" height="200" src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif">
 
 ![alt text](https://github.com/ChaosXYZ/ChaosXYZ/blob/main/divider.png?raw=true)
 

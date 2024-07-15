@@ -43,9 +43,3 @@
 ### Contact - 📫 How to reach me?
 
 ![Discord](https://img.shields.io/badge/Asklyn-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
-![alt text](https://github.com/TridentifyIshaan/TridentifyIshaan/blob/output/github-contribution-grid-snake.svg)
-
-<!---
-TridentifyIshaan/TridentifyIshaan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

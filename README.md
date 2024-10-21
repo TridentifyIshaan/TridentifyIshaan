@@ -56,10 +56,8 @@
 
 ### Contact - 📫 How to reach me?
 
-![Discord](https://img.shields.io/badge/Asklyn-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT ishaanrastogi19@gmail.com
+![Discord](https://img.shields.io/badge/Asklyn-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT rastogi.ishaan.work@gmail.com
 
 ---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-
+<!-- Proudly created with the help of GPRM ( https://gprm.itsvg.in ) -->

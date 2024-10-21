@@ -24,7 +24,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MySQL](https://img.shields.io/badge/MySQL-%230074A3.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/bootstrap-%23FFA500.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/JupyterNotebook-%23FFA500.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%234285F4.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%23D6FFFA.svg?style=for-the-badge&logo=cplusplus&logoColor=%23044F88)

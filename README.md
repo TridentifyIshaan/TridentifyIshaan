@@ -1,6 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10)
 <h1 align="left"> Hi there 👋</h1>
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I+am+Ishaan+Rastogi;Second+Year+AKA+Sophomore)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&color=F70000&width=435&lines=I+am+Ishaan+Rastogi;Second+Year+AKA+Sophomore)](https://git.io/typing-svg)
+
 
 ### 💫 About Me:
 - 🔭 I’m currently working on Web Development.

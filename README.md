@@ -65,6 +65,44 @@
 
 ![Discord](https://img.shields.io/badge/Asklyn-%237289DA.svg?logo=discord&logoColor=white) <br> 💌 OR Drop A Mail AT rastogi.ishaan.work@gmail.com
 
+
+---
+
+## 🏆 My Achievements
+
+![Badge](https://api.badgr.io/public/assertions/jF1VH55NSDmJvdGwXuBcyw/image)
+
+### Badge Details:
+```json
+{
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/jF1VH55NSDmJvdGwXuBcyw",
+  "@context": "https://w3id.org/openbadges/v2",
+  "recipient": {
+    "type": "email",
+    "salt": "MCRPAmr7g55M1IL7",
+    "hashed": true,
+    "identity": "sha256$36d2aa1578281cac30db17786d1e79a6ee992cec0f3ed48c861f8ef8125032ca"
+  },
+  "badge": "https://api.badgr.io/public/badges/XOAM4KyfSoKMy1NJdOviUA",
+  "issuedOn": "2024-11-22T02:30:00Z",
+  "image": {
+    "id": "https://api.badgr.io/public/assertions/jF1VH55NSDmJvdGwXuBcyw/image"
+  },
+  "revoked": false,
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "extensions:recipientProfile": {
+    "name": "Ishaan Rastogi",
+    "@context": "https://openbadgespec.org/extensions/recipientProfile/context.json",
+    "type": [
+      "Extension",
+      "extensions:RecipientProfile"
+    ]
+  }
+}
+
 ---
 
 <!-- Proudly created with the help of GPRM ( https://gprm.itsvg.in ) -->

@@ -3,8 +3,8 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&color=F70000&width=435&lines=I+am+Ishaan+Rastogi;Second+Year+AKA+Sophomore" alt="Typing SVG" /></a>
 
 ### 💫 About Me:
-- 🔭 I’m currently working on Web Development.
-- 🌱 I’m currently learning C & Python.
+- 🔭 I’m currently working on Data Science
+- 🌱 I’m currently learning Java DSA
 - 💞️ I’m looking forward to learning anything if you teach me for free.
 - ♾️ Interested in mythology and cultural roots
 - 🧠 Interested in Geopolitics

@@ -2,8 +2,7 @@
 <h1 align="left"> Hi there 👋</h1>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&color=F70000&width=435&lines=I+am+Ishaan+Rastogi;Second+Year+AKA+Sophomore" alt="Typing SVG" /></a>
 
-<h2> Visitors: </h2>
-![Visitor Count](https://profile-counter.glitch.me/{TridentifyIshaan}/count.svg)
+## Visitors: <br> ![Visitor Count](https://profile-counter.glitch.me/{TridentifyIshaan}/count.svg)
 
 ### 💫 About Me:
 - 🔭 I’m currently working on DSML/AIML

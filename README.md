@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10)
 <h1 align="left"> Hi there 👋</h1>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&color=F70000&width=435&lines=I+am+Ishaan+Rastogi;Second+Year+AKA+Sophomore" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&color=F70000&width=435&lines=I+am+Ishaan+Rastogi;Junior+Year" alt="Typing SVG" /></a>
 
 ![](https://api.visitorbadge.io/api/VisitorHit?user=TridentifyIshaan&repo=github-visitors-badge&countColor=%237B1E7A)
 

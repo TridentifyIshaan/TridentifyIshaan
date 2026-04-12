@@ -14,19 +14,24 @@
 
 ## About Me
 
-```yaml
-name: Ishaan Rastogi
-role: AI/ML Engineer in the making
-location: India
-current_focus:
-	- AI/ML product development
-	- NLP and recommendation systems
-	- Java DSA and core CS problem solving
-learning_now:
-	- model deployment and optimization
-	- production-friendly data workflows
-philosophy: build fast, learn faster, ship practical solutions
-```
+<pre style="line-height: 1.65; margin: 0; white-space: pre-wrap; background: transparent; border: 0;">
+<span style="color:#FCA5A5">name: Ishaan Rastogi</span>
+<span style="color:#FB7185">role: AI/ML Engineer in the making</span>
+<span style="color:#F87171">location: India (IN)</span>
+<span style="color:#EF4444">current_focus:</span>
+<span style="color:#FCA5A5">  - AI/ML product development</span>
+<span style="color:#FB7185">  - NLP and recommendation systems</span>
+<span style="color:#F87171">  - LLMs for growth of Indian industries</span>
+<span style="color:#EF4444">  - Vertical &amp; Horizontal Suites with AI Pipelines</span>
+<span style="color:#B91C1C">  - Java DSA and core CS problem solving</span>
+<span style="color:#FCA5A5">learning_now:</span>
+<span style="color:#FB7185">  - model deployment and optimization</span>
+<span style="color:#F87171">  - production-friendly data workflows</span>
+<span style="color:#EF4444">  - flutter framework and dart language</span>
+<span style="color:#B91C1C">  - DSA in Java</span>
+<span style="color:#FCA5A5">philosophy: build fast, learn faster, ship practical solutions</span>
+<span style="color:#FB7185">motto: Imagination should never die! 🪽</span>
+</pre>
 
 - Building projects that move from notebooks to usable products.
 - Deepening engineering fundamentals with Java, DSA, and system-level thinking.
@@ -95,17 +100,6 @@ philosophy: build fast, learn faster, ship practical solutions
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
-## Featured Builds
-
-| Project | Theme | Core Stack | Link |
-|---|---|---|---|
-| Med-Map | Health-tech product exploration | JavaScript, Web | [Open](https://github.com/TridentifyIshaan/Med-Map) |
-| SwayUp.ai | Applied AI solution development | Python, ML | [Open](https://github.com/TridentifyIshaan/SwayUp.ai) |
-| IsoTrust.ai | AI + trust/compliance workflows | Python, AI | [Open](https://github.com/TridentifyIshaan/IsoTrust.ai) |
-| Prime-Mood | Mood-aware recommendation concept | Jupyter, NLP/RecSys | [Open](https://github.com/TridentifyIshaan/Prime-Mood) |
-| AIML_BigProjects | Larger-scale AI/ML experiments | Python, Jupyter | [Open](https://github.com/TridentifyIshaan/AIML_BigProjects) |
-| Java | DSA + OOP grind repository | Java | [Open](https://github.com/TridentifyIshaan/Java) |
-
 ## Featured Repositories
 
 | Repository | Domain | Why it matters |
@@ -117,33 +111,95 @@ philosophy: build fast, learn faster, ship practical solutions
 | [AIML_BigProjects](https://github.com/TridentifyIshaan/AIML_BigProjects) | AI/ML Portfolio | Collection of larger experiments and model pipelines. |
 | [Java](https://github.com/TridentifyIshaan/Java) | DSA + OOP | Foundation repository for algorithmic and interview prep. |
 
-## Stack Radar
+# Stack Radar
+
+<sub>💡 I've utilised this stack across my projects, but I may not be proficient with all of it. Always learning and exploring!</sub>
+
+## 🖥️ Frontend Stack
+
+### 🔤 Frontend Languages
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+### 🧱 Frontend Frameworks & Libraries
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-90C53F?style=for-the-badge&logo=ejs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+## ⚙️ Backend Stack
+
+### 🧠 AI / ML / Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+### 📊 Data Science & Analytics
+
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3498db?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
+### 👾 NLP & LLM Tools
+
+![NLTK](https://img.shields.io/badge/NLTK-154F3A?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### 🌐 Web Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+## 📦 Databases & Storage
+
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+## ☁️ DevOps & Tooling
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
+## 🧱 Core Programming
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+
+## 📚 Research & Knowledge Tools
+
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Ishaan-Rastogi-2)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)]()
+[![Perplexity](https://img.shields.io/badge/Perplexity-088F8F?style=for-the-badge&logo=perplexity&logoColor=white)]()
+[![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)](https://gemini.google.com)
+[![NotebookLM](https://img.shields.io/badge/NotebookLM-1A73E8?style=for-the-badge&logo=google&logoColor=white)](https://notebooklm.google.com)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai)
 
 ## Coding Activity by Language
 
 <p align="center">
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=github" alt="repos per language" />
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=github" alt="most commit language" />
-</p>
-
-<p align="center">
-  <sub>Language activity cards above stay stable; removed the flaky donut widget dependency.</sub>
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=radical" alt="repos per language" />
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=radical" alt="most commit language" />
 </p>
 
 ## Contribution Graph
@@ -171,7 +227,7 @@ philosophy: build fast, learn faster, ship practical solutions
 ## Dev Quote
 
 <p align="center">
-	<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" alt="quote" />
+	<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote" />
 </p>
 
 ## Now Building
@@ -182,7 +238,7 @@ philosophy: build fast, learn faster, ship practical solutions
 | Mar 2026 | Med-Map and Prime-Mood enhancements | Improve recommendation quality and UX clarity |
 | Feb 2026 | AIML_BigProjects expansion | Consolidate experiments into reusable modules |
 
-<sub>Update this block every month to keep your profile visibly active.</sub>
+<sub> ♻️ Updating this block every month!.</sub>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
@@ -192,6 +248,10 @@ philosophy: build fast, learn faster, ship practical solutions
 [![LeetCode](https://img.shields.io/badge/LeetCode-121212?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/tridentifyishaan/)
 [![Medium](https://img.shields.io/badge/Medium-111111?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ishaanrastogi19)
 [![Email](https://img.shields.io/badge/Email-rastogi.ishaan.work%40gmail.com-B91C1C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rastogi.ishaan.work@gmail.com)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Ishaan58742218)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ishaan.thereal/)
+[![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/IshaanR_Finity)
+[![Discord](https://img.shields.io/badge/Asklyn-5865F2?style=for-the-badge&logo=discord&logoColor=white)]()
 
 <p align="center">
 	<i>Open to building in AI/ML, NLP, recommender systems, and backend-heavy product teams.</i>

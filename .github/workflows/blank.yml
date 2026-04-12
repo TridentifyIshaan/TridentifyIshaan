@@ -12,7 +12,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake files
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -20,10 +25,17 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Push to output branch
+        run: |
+          git fetch origin output --depth=1 2>/dev/null || echo "Output branch does not exist yet"
+          git checkout -B output
+          mkdir -p dist
+          cp -r dist/* . 2>/dev/null || true
+          git add dist/github-snake.svg dist/github-snake-dark.svg 2>/dev/null || true
+          git commit -m "chore: update snake contribution graph" --allow-empty
+          git push origin output -f

@@ -1,0 +1,83 @@
+name: Now Building Block Updater
+description: Insert or update a managed monthly Now Building block in a README using GitHub repo activity
+author: Now Building Updater Contributors
+
+inputs:
+  github-token:
+    description: "GitHub token with access to repos you want analyzed"
+    required: false
+    default: ""
+  username:
+    description: "GitHub username to analyze"
+    required: true
+  readme-path:
+    description: "README path to update"
+    required: false
+    default: "README.md"
+  months:
+    description: "How many recent months to include"
+    required: false
+    default: "3"
+  include-private:
+    description: "Include private repos if token has access"
+    required: false
+    default: "true"
+  include-forks:
+    description: "Include fork repositories"
+    required: false
+    default: "false"
+  include-archived:
+    description: "Include archived repositories"
+    required: false
+    default: "false"
+  note:
+    description: "Footer note under the generated table"
+    required: false
+    default: "Updating this block every month!."
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install requests
+
+    - name: Update managed block
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+        NOW_BUILDING_INCLUDE_PRIVATE: ${{ inputs.include-private }}
+        NOW_BUILDING_INCLUDE_FORKS: ${{ inputs.include-forks }}
+        NOW_BUILDING_INCLUDE_ARCHIVED: ${{ inputs.include-archived }}
+      run: |
+        set -e
+        args=(
+          --username "${{ inputs.username }}"
+          --readme-path "${{ inputs.readme-path }}"
+          --months "${{ inputs.months }}"
+          --note "${{ inputs.note }}"
+        )
+
+        if [[ "${NOW_BUILDING_INCLUDE_PRIVATE}" == "true" ]]; then
+          args+=(--include-private)
+        fi
+        if [[ "${NOW_BUILDING_INCLUDE_FORKS}" == "true" ]]; then
+          args+=(--include-forks)
+        fi
+        if [[ "${NOW_BUILDING_INCLUDE_ARCHIVED}" == "true" ]]; then
+          args+=(--include-archived)
+        fi
+
+        PYTHONPATH="${{ github.action_path }}/src" \
+          python -m now_building_updater.cli "${args[@]}"
+
+branding:
+  icon: "calendar"
+  color: "red"

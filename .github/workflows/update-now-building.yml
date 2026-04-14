@@ -1,0 +1,41 @@
+name: Update Now Building
+
+on:
+  schedule:
+    - cron: "5 1 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-now-building:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate block
+        uses: ./now-building-block-updater
+        with:
+          github-token: ${{ secrets.NOW_BUILDING_TOKEN != '' && secrets.NOW_BUILDING_TOKEN || github.token }}
+          username: TridentifyIshaan
+          readme-path: README.md
+          months: "3"
+          include-private: "true"
+          include-forks: "false"
+          include-archived: "false"
+          note: "♻️ Updating this block every month!."
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No README changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update now building block"
+          git push

@@ -235,12 +235,15 @@
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Apr 2026 | TridentifyIshaan + AIML_BigProjects iteration cycle | Polish core AI workflows and docs for cleaner demos |
-| Mar 2026 | LeetSync + IsoTrust.ai iteration cycle | Polish core AI workflows and docs for cleaner demos |
-| Feb 2026 | AIML_MiniProjects iteration cycle | Polish core AI workflows and docs for cleaner demos |
+| Apr 2026 | AIML_BigProjects: model experimentation and iteration | Improve model quality with cleaner evaluation and iteration loops |
+|  | PyJ-DSA: algorithm implementation consistency work | Improve problem-solving speed through structured practice |
+| Mar 2026 | LeetSync: integration and stability improvements | Close the month with production-ready demos and clearer docs |
+|  | IsoTrust.ai: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
+| Feb 2026 | AIML_MiniProjects: training pipeline stabilization | Convert experiments into reusable training components |
 
 <sub> ♻️ Updating this block every month!.</sub>
-<!-- NOW_BUILDING:END --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
+<!-- NOW_BUILDING:END -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 ## Connect
 

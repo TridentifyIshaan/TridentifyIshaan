@@ -10,6 +10,14 @@ from .github_api import GitHubClient, Repo, iso_month_range
 START_MARKER = "<!-- NOW_BUILDING:START -->"
 END_MARKER = "<!-- NOW_BUILDING:END -->"
 DEFAULT_HEADER = "## Now Building"
+NOISE_NAME_PARTS = (
+    "readme",
+    "profile",
+    "dotfiles",
+    "template",
+    "updater",
+    "config",
+)
 
 
 @dataclass
@@ -24,6 +32,7 @@ def build_entries(
     github: GitHubClient,
     username: str,
     months: int,
+    rows_per_month: int,
     include_private: bool,
     include_forks: bool,
     include_archived: bool,
@@ -39,29 +48,50 @@ def build_entries(
     ]
 
     entries: List[MonthEntry] = []
-    for year, month in month_pairs:
+    used_goals: set[str] = set()
+    row_count = max(1, rows_per_month)
+    for index, (year, month) in enumerate(month_pairs):
         since_iso, until_iso = iso_month_range(year, month)
         repo_scores: List[Tuple[Repo, int]] = []
 
         for repo in repos:
+            if _is_noise_repo(repo, username):
+                continue
             commits = github.count_commits(repo.owner, repo.name, since_iso, until_iso)
             if commits <= 0:
                 continue
             repo_scores.append((repo, commits))
 
         repo_scores.sort(key=lambda item: item[1], reverse=True)
-        top_repos = [item[0] for item in repo_scores[:2]]
 
-        build_track = _build_track(top_repos, repo_scores)
-        shipping_goal = _shipping_goal(top_repos)
-        entries.append(
-            MonthEntry(
-                year=year,
-                month=month,
-                build_track=build_track,
-                shipping_goal=shipping_goal,
+        if not repo_scores:
+            build_track = _build_track([], repo_scores, index, 0)
+            shipping_goal = _shipping_goal([], index, 0, used_goals)
+            used_goals.add(shipping_goal)
+            entries.append(
+                MonthEntry(
+                    year=year,
+                    month=month,
+                    build_track=build_track,
+                    shipping_goal=shipping_goal,
+                )
             )
-        )
+            continue
+
+        month_repo_scores = repo_scores[:row_count]
+        for row_index, (repo, _commit_count) in enumerate(month_repo_scores):
+            top_repos = [repo]
+            build_track = _build_track(top_repos, repo_scores, index, row_index)
+            shipping_goal = _shipping_goal(top_repos, index, row_index, used_goals)
+            used_goals.add(shipping_goal)
+            entries.append(
+                MonthEntry(
+                    year=year,
+                    month=month,
+                    build_track=build_track,
+                    shipping_goal=shipping_goal,
+                )
+            )
 
     return entries
 
@@ -74,11 +104,14 @@ def render_block(entries: Sequence[MonthEntry], note: str) -> str:
         "|---|---|---|",
     ]
 
+    previous_label = ""
     for entry in entries:
         month_label = datetime(entry.year, entry.month, 1).strftime("%b %Y")
+        visible_month = month_label if month_label != previous_label else ""
         lines.append(
-            f"| {month_label} | {entry.build_track} | {entry.shipping_goal} |"
+            f"| {visible_month} | {entry.build_track} | {entry.shipping_goal} |"
         )
+        previous_label = month_label
 
     lines.append("")
     lines.append(f"<sub> {note}</sub>")
@@ -163,42 +196,188 @@ def _recent_months(year: int, month: int, count: int) -> List[Tuple[int, int]]:
     return pairs
 
 
-def _build_track(top_repos: Sequence[Repo], repo_scores: Sequence[Tuple[Repo, int]]) -> str:
+def _build_track(
+    top_repos: Sequence[Repo],
+    repo_scores: Sequence[Tuple[Repo, int]],
+    month_index: int,
+    row_index: int,
+) -> str:
     if top_repos:
-        if len(top_repos) == 1:
-            return f"{top_repos[0].name} iteration cycle"
-        return f"{top_repos[0].name} + {top_repos[1].name} iteration cycle"
+        repo = top_repos[0]
+        theme = _detect_repo_theme(repo)
+        theme_track_phrases = {
+            "recommender": [
+                "recommendation ranking refinement",
+                "personalization signal tuning",
+                "candidate retrieval improvements",
+            ],
+            "nlp": [
+                "text pipeline quality upgrades",
+                "prompt and parsing flow refinement",
+                "language workflow stabilization",
+            ],
+            "llm": [
+                "LLM workflow hardening",
+                "retrieval and grounding improvements",
+                "evaluation and guardrail upgrades",
+            ],
+            "data": [
+                "data pipeline reliability work",
+                "data quality and validation upgrades",
+                "dataset curation and preprocessing improvements",
+            ],
+            "backend": [
+                "API reliability and service cleanup",
+                "backend stability and integration work",
+                "service performance and error-handling upgrades",
+            ],
+            "mobile": [
+                "mobile experience and flow polish",
+                "feature integration and UI responsiveness tuning",
+                "release-readiness cleanup for app workflows",
+            ],
+            "dsa": [
+                "problem-solving pattern expansion",
+                "algorithm implementation consistency work",
+                "DSA practice structure and coverage upgrades",
+            ],
+            "ml": [
+                "model experimentation and iteration",
+                "feature engineering and evaluation improvements",
+                "training pipeline stabilization",
+            ],
+            "general": [
+                "core feature development",
+                "integration and stability improvements",
+                "delivery-focused polish work",
+            ],
+        }
+        phrase = _pick_by_offset(
+            theme_track_phrases.get(theme, theme_track_phrases["general"]),
+            month_index + row_index,
+        )
+        return f"{repo.name}: {phrase}"
 
     if repo_scores:
-        return f"{repo_scores[0][0].name} maintenance cycle"
+        return f"{repo_scores[0][0].name}: maintenance and cleanup"
 
-    return "Exploration and planning cycle"
+    return "Planning, exploration, and backlog shaping"
 
 
-def _shipping_goal(top_repos: Sequence[Repo]) -> str:
-    keyword_bank = {
-        "recomm": "Improve recommendation quality and UX clarity",
-        "nlp": "Refine language pipelines and improve result relevance",
-        "llm": "Harden LLM workflows and evaluation consistency",
-        "ai": "Polish core AI workflows and docs for cleaner demos",
-        "ml": "Consolidate experiments into reusable modules",
-        "backend": "Strengthen API reliability and deployment readiness",
-        "data": "Improve data quality checks and pipeline stability",
-        "docs": "Tighten documentation for onboarding and demo readiness",
-    }
-
-    corpus_parts: List[str] = []
-    for repo in top_repos:
-        corpus_parts.extend(repo.topics)
-        corpus_parts.append(repo.description)
-        corpus_parts.append(repo.name)
-
-    corpus = " ".join(corpus_parts).lower()
-    for key, goal in keyword_bank.items():
-        if key in corpus:
-            return goal
-
+def _shipping_goal(
+    top_repos: Sequence[Repo],
+    month_index: int,
+    row_index: int,
+    used_goals: set[str],
+) -> str:
     if top_repos:
-        return "Ship cleaner milestones with better docs and reliability"
+        repo = top_repos[0]
+        theme = _detect_repo_theme(repo)
+        theme_goals = {
+            "recommender": [
+                "Lift recommendation relevance and reduce noisy suggestions",
+                "Improve ranking quality with clearer user-intent signals",
+                "Ship a more consistent personalization experience end to end",
+            ],
+            "nlp": [
+                "Improve response relevance and text quality across key flows",
+                "Reduce parsing and prompt edge cases in production paths",
+                "Raise language workflow reliability for cleaner outputs",
+            ],
+            "llm": [
+                "Reduce hallucination risk with stronger grounding and checks",
+                "Stabilize evaluation metrics and model behavior across prompts",
+                "Ship safer LLM features with clearer guardrails",
+            ],
+            "data": [
+                "Reduce data breakages with stronger validation and monitoring",
+                "Improve pipeline consistency from ingestion to model input",
+                "Harden dataset quality checks for repeatable experiments",
+            ],
+            "backend": [
+                "Improve API stability and reduce avoidable failure paths",
+                "Lower latency and improve service reliability under load",
+                "Tighten error handling and deployment readiness",
+            ],
+            "mobile": [
+                "Polish app UX and reduce friction in core journeys",
+                "Improve release readiness with better app stability",
+                "Smoothen mobile feature flows for clearer user outcomes",
+            ],
+            "dsa": [
+                "Increase consistency and depth across core DSA patterns",
+                "Improve problem-solving speed through structured practice",
+                "Strengthen implementation accuracy on medium-hard sets",
+            ],
+            "ml": [
+                "Improve model quality with cleaner evaluation and iteration loops",
+                "Convert experiments into reusable training components",
+                "Stabilize model workflows for repeatable monthly progress",
+            ],
+            "general": [
+                "Ship cleaner milestones with stronger reliability",
+                "Close the month with production-ready demos and clearer docs",
+                "Improve release readiness by tightening tests and workflows",
+            ],
+        }
+        candidates = theme_goals.get(theme, theme_goals["general"])
+    else:
+        candidates = [
+            "Prepare next build track and align monthly shipping milestones",
+            "Finalize roadmap priorities and reduce execution blockers",
+        ]
 
-    return "Prepare next build track and align monthly shipping milestones"
+    rotated = _rotate(candidates, month_index + row_index)
+    for candidate in rotated:
+        if candidate not in used_goals:
+            return candidate
+
+    return rotated[0]
+
+
+def _rotate(values: Sequence[str], offset: int) -> List[str]:
+    if not values:
+        return []
+    shift = offset % len(values)
+    return list(values[shift:]) + list(values[:shift])
+
+
+def _is_noise_repo(repo: Repo, username: str) -> bool:
+    name = repo.name.lower()
+    if name == username.lower():
+        return True
+    return any(part in name for part in NOISE_NAME_PARTS)
+
+
+def _detect_repo_theme(repo: Repo) -> str:
+    corpus = _repo_corpus(repo)
+
+    if any(token in corpus for token in ["recommend", "recsys", "recommender", "ranking"]):
+        return "recommender"
+    if any(token in corpus for token in ["llm", "rag", "prompt", "agent", "langchain"]):
+        return "llm"
+    if any(token in corpus for token in ["nlp", "text", "sentiment", "transformer", "language"]):
+        return "nlp"
+    if any(token in corpus for token in ["data", "etl", "pipeline", "analytics", "warehouse"]):
+        return "data"
+    if any(token in corpus for token in ["api", "backend", "server", "fastapi", "flask", "express"]):
+        return "backend"
+    if any(token in corpus for token in ["flutter", "android", "ios", "mobile", "dart"]):
+        return "mobile"
+    if any(token in corpus for token in ["dsa", "leetcode", "algorithm", "java", "cp"]):
+        return "dsa"
+    if any(token in corpus for token in ["ml", "model", "ai", "tensorflow", "sklearn", "keras"]):
+        return "ml"
+
+    return "general"
+
+
+def _repo_corpus(repo: Repo) -> str:
+    parts = [repo.name, repo.description, *repo.topics]
+    return " ".join(parts).lower()
+
+
+def _pick_by_offset(values: Sequence[str], offset: int) -> str:
+    if not values:
+        return "core feature development"
+    return values[offset % len(values)]

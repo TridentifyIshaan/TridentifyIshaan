@@ -18,6 +18,10 @@ inputs:
     description: "How many recent months to include"
     required: false
     default: "3"
+  rows-per-month:
+    description: "How many separate rows to render per month"
+    required: false
+    default: "2"
   include-private:
     description: "Include private repos if token has access"
     required: false
@@ -62,6 +66,7 @@ runs:
           --username "${{ inputs.username }}"
           --readme-path "${{ inputs.readme-path }}"
           --months "${{ inputs.months }}"
+          --rows-per-month "${{ inputs.rows-per-month }}"
           --note "${{ inputs.note }}"
         )
 

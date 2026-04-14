@@ -15,6 +15,7 @@ jobs:
       NOW_BUILDING_USERNAME: ${{ vars.NOW_BUILDING_USERNAME }}
       NOW_BUILDING_README_PATH: ${{ vars.NOW_BUILDING_README_PATH }}
       NOW_BUILDING_MONTHS: ${{ vars.NOW_BUILDING_MONTHS }}
+      NOW_BUILDING_ROWS_PER_MONTH: ${{ vars.NOW_BUILDING_ROWS_PER_MONTH }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,11 +36,13 @@ jobs:
         run: |
           README_PATH="${NOW_BUILDING_README_PATH:-README.md}"
           MONTHS="${NOW_BUILDING_MONTHS:-3}"
+          ROWS_PER_MONTH="${NOW_BUILDING_ROWS_PER_MONTH:-2}"
 
           now-building-updater \
             --username "${NOW_BUILDING_USERNAME}" \
             --readme-path "${README_PATH}" \
             --months "${MONTHS}" \
+            --rows-per-month "${ROWS_PER_MONTH}" \
             --include-private
 
       - name: Commit changes

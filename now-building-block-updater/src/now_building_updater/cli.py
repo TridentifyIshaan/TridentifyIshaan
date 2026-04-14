@@ -35,6 +35,15 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="How many recent months to include (default: 3)",
     )
     parser.add_argument(
+        "--rows-per-month",
+        type=int,
+        default=2,
+        help=(
+            "How many separate rows to generate per month. "
+            "Use values >1 to list multiple tracks in the same month (default: 2)"
+        ),
+    )
+    parser.add_argument(
         "--include-private",
         action="store_true",
         help=(
@@ -81,6 +90,7 @@ def main() -> int:
             github=github,
             username=args.username,
             months=args.months,
+            rows_per_month=args.rows_per_month,
             include_private=args.include_private,
             include_forks=args.include_forks,
             include_archived=args.include_archived,

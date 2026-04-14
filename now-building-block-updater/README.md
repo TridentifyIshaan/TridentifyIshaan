@@ -45,12 +45,14 @@ now-building-updater \
   --username TridentifyIshaan \
   --readme-path README.md \
   --months 3 \
+  --rows-per-month 2 \
   --include-private
 ```
 
 ### Optional flags
 
 - `--dry-run`: print generated managed block without writing files
+- `--rows-per-month`: separate rows to generate for each month (default `2`)
 - `--include-forks`: include forked repositories in scoring
 - `--include-archived`: include archived repositories in scoring
 - `--note`: footer note text under the table
@@ -71,6 +73,7 @@ Required repository variables:
 - `NOW_BUILDING_USERNAME`: target GitHub username
 - `NOW_BUILDING_README_PATH` (optional): defaults to `README.md`
 - `NOW_BUILDING_MONTHS` (optional): defaults to `3`
+- `NOW_BUILDING_ROWS_PER_MONTH` (optional): defaults to `2`
 
 Required repository secret:
 
@@ -107,6 +110,7 @@ jobs:
           username: TridentifyIshaan
           readme-path: README.md
           months: "3"
+          rows-per-month: "2"
           include-private: "true"
       - name: Commit changes
         run: |
@@ -128,9 +132,11 @@ jobs:
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Apr 2026 | RepoA + RepoB iteration cycle | Polish core AI workflows and docs for cleaner demos |
-| Mar 2026 | RepoC iteration cycle | Improve recommendation quality and UX clarity |
-| Feb 2026 | RepoD maintenance cycle | Consolidate experiments into reusable modules |
+| Apr 2026 | RepoA active delivery sprint | Polish core AI workflows and docs for cleaner demos |
+|  | RepoB feature hardening cycle | Ship AI features with stronger guardrails and observability |
+| Mar 2026 | RepoC integration and polish phase | Improve recommendation quality and UX clarity |
+|  | RepoD stability and release prep | Consolidate experiments into reusable modules |
+| Feb 2026 | RepoE maintenance and cleanup sprint | Tighten data validation and automate pipeline monitoring |
 
 <sub> ♻️ Updating this block every month!.</sub>
 <!-- NOW_BUILDING:END -->

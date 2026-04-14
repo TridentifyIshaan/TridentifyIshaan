@@ -42,7 +42,9 @@ class GitHubClient:
 
     def get_authenticated_login(self) -> Optional[str]:
         response = self._session.get(f"{API_BASE}/user", timeout=self._timeout_seconds)
-        if response.status_code == 401:
+        if response.status_code in (401, 403):
+            # Some tokens (including default GITHUB_TOKEN in certain contexts)
+            # cannot access /user. Fall back to public-only behavior.
             return None
         if response.status_code >= 400:
             raise GitHubApiError(f"/user failed: {response.status_code} {response.text}")

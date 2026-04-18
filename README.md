@@ -241,7 +241,7 @@
 |  | IsoTrust.ai: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
 | Feb 2026 | AIML_MiniProjects: training pipeline stabilization | Convert experiments into reusable training components |
 
-<sub> ♻️ Updating this block every month!.</sub>
+<sub> ♻️ This block auto-updates at 1st day 6 AM every month!.</sub>
 <!-- NOW_BUILDING:END -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 

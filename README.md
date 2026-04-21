@@ -17,7 +17,7 @@
 <pre style="line-height: 1.65; margin: 0; white-space: pre-wrap; background: transparent; border: 0;">
 <span style="color:#FCA5A5">name: Ishaan Rastogi</span>
 <span style="color:#FB7185">role: AI/ML Engineer in the making</span>
-<span style="color:#F87171">location: India (IN)</span>
+<span style="color:#F87171">location: India</span>
 <span style="color:#EF4444">current_focus:</span>
 <span style="color:#FCA5A5">  - AI/ML product development</span>
 <span style="color:#FB7185">  - NLP and recommendation systems</span>

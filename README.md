@@ -195,11 +195,12 @@
 [![NotebookLM](https://img.shields.io/badge/NotebookLM-1A73E8?style=for-the-badge&logo=google&logoColor=white)](https://notebooklm.google.com)
 [![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai)
 
-## Coding Activity by Language
+## Coding Activity
 
 <p align="center">
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=radical" alt="repos per language" />
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=radical" alt="most commit language" />
+	![Ishaan's GitHub stats](https://github-readme-stats.vercel.app/api?username=tridentifyishaan&show_icons=true&theme=shadow_red)
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=merko" alt="repos per language" />
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=merko" alt="most commit language" />
 </p>
 
 ## Contribution Graph

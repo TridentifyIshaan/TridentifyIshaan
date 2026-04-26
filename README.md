@@ -199,8 +199,8 @@
 
 <p align="center">
 	<img src="https://github-readme-stats.vercel.app/api?username=tridentifyishaan&show_icons=true&theme=rose" alt ="repo stats" />
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=merko" alt="repos per language" />
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=merko" alt="most commit language" />
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TridentifyIshaan&theme=shadow_red" alt="repos per language" />
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TridentifyIshaan&theme=shadow_red" alt="most commit language" />
 </p>
 
 ## Contribution Graph

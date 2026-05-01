@@ -236,13 +236,13 @@
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Apr 2026 | AIML_BigProjects: model experimentation and iteration | Improve model quality with cleaner evaluation and iteration loops |
-|  | PyJ-DSA: algorithm implementation consistency work | Improve problem-solving speed through structured practice |
-| Mar 2026 | LeetSync: integration and stability improvements | Close the month with production-ready demos and clearer docs |
-|  | IsoTrust.ai: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
-| Feb 2026 | AIML_MiniProjects: training pipeline stabilization | Convert experiments into reusable training components |
+| May 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
+| Apr 2026 | PyJ-DSA: algorithm implementation consistency work | Improve problem-solving speed through structured practice |
+|  | AIML_MiniProjects: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
+| Mar 2026 | LeetSync: delivery-focused polish work | Improve release readiness by tightening tests and workflows |
+|  | IsoTrust.ai: model experimentation and iteration | Improve model quality with cleaner evaluation and iteration loops |
 
-<sub> ♻️ This block auto-updates at 1st day 6 AM every month!.</sub>
+<sub> ♻️ Updating this block every month!.</sub>
 <!-- NOW_BUILDING:END -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 

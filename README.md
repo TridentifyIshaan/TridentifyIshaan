@@ -66,7 +66,7 @@
 - Active Tracks: Product Prototypes, Model Iteration, Problem Solving
 - Top Public Repos: Med-Map, SwayUp.ai, IsoTrust.ai, AIML_BigProjects
 - Collaboration: Open to AI/ML and backend-heavy engineering projects
-
+- Internship: GlobalLogic, Infosys Springboard
 	</td>
 	</tr>
 </table>

@@ -23,13 +23,14 @@
 <span style="color:#FB7185">  - NLP and recommendation systems</span>
 <span style="color:#FB7185">  - Computer Vision Solutions</span>
 <span style="color:#F87171">  - LLMs for growth of Indian industries</span>
+<span style="color:#F87171">  - Automation Scripts or Actions</span>	
 <span style="color:#EF4444">  - Vertical &amp; Horizontal Suites with AI Pipelines</span>
 <span style="color:#B91C1C">  - Java DSA and core CS problem solving</span>
 <span style="color:#FCA5A5">learning_now:</span>
 <span style="color:#FB7185">  - model deployment and optimization</span>
 <span style="color:#F87171">  - production-friendly data workflows</span>
 <span style="color:#EF4444">  - flutter framework and dart language</span>
-<span style="color:#B91C1C">  - DSA in Java</span>
+<span style="color:#B91C1C">  - DSA in Python #AIML </span>
 <span style="color:#FCA5A5">philosophy: build fast, learn faster, ship practical solutions</span>
 <span style="color:#FB7185">motto: Imagination should never die! 🪽</span>
 </pre>

@@ -240,11 +240,11 @@
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Jun 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
-| May 2026 | DLforCV: feature engineering and evaluation improvements | Convert experiments into reusable training components |
-|  | KaraokeGenie: delivery-focused polish work | Improve release readiness by tightening tests and workflows |
-| Apr 2026 | PyJ-DSA: DSA practice structure and coverage upgrades | Strengthen implementation accuracy on medium-hard sets |
-|  | AIML_MiniProjects: model experimentation and iteration | Improve model quality with cleaner evaluation and iteration loops |
+| Jul 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
+| Jun 2026 | AIML_MiniProjects: feature engineering and evaluation improvements | Convert experiments into reusable training components |
+|  | LeetSync: delivery-focused polish work | Improve release readiness by tightening tests and workflows |
+| May 2026 | DLforCV: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
+|  | KaraokeGenie: core feature development | Ship cleaner milestones with stronger reliability |
 
 <sub> ♻️ Updating this block every month!.</sub>
 <!-- NOW_BUILDING:END -->

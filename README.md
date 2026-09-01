@@ -240,11 +240,11 @@
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Aug 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
-| Jul 2026 | AIML_MiniProjects: feature engineering and evaluation improvements | Convert experiments into reusable training components |
+| Sep 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
+| Aug 2026 | AIML_MiniProjects: feature engineering and evaluation improvements | Convert experiments into reusable training components |
 |  | PyJ-DSA: DSA practice structure and coverage upgrades | Strengthen implementation accuracy on medium-hard sets |
-| Jun 2026 | AIML_MiniProjects: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
-|  | LeetSync: core feature development | Ship cleaner milestones with stronger reliability |
+| Jul 2026 | AIML_MiniProjects: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
+|  | PyJ-DSA: problem-solving pattern expansion | Increase consistency and depth across core DSA patterns |
 
 <sub> ♻️ Updating this block every month!.</sub>
 <!-- NOW_BUILDING:END -->

@@ -240,11 +240,10 @@
 
 | Month | Current Build Track | Shipping Goal |
 |---|---|---|
-| Oct 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
-| Sep 2026 | PyJ-DSA: algorithm implementation consistency work | Improve problem-solving speed through structured practice |
-|  | AIML_BigProjects: training pipeline stabilization | Stabilize model workflows for repeatable monthly progress |
-| Aug 2026 | AIML_MiniProjects: training pipeline stabilization | Improve model quality with cleaner evaluation and iteration loops |
-|  | PyJ-DSA: problem-solving pattern expansion | Increase consistency and depth across core DSA patterns |
+| Nov 2026 | Planning, exploration, and backlog shaping | Prepare next build track and align monthly shipping milestones |
+| Oct 2026 | Planning, exploration, and backlog shaping | Finalize roadmap priorities and reduce execution blockers |
+| Sep 2026 | PyJ-DSA: DSA practice structure and coverage upgrades | Strengthen implementation accuracy on medium-hard sets |
+|  | AIML_BigProjects: model experimentation and iteration | Improve model quality with cleaner evaluation and iteration loops |
 
 <sub> ♻️ Updating this block every month!.</sub>
 <!-- NOW_BUILDING:END -->

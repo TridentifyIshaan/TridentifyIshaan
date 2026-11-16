@@ -218,11 +218,8 @@
 	<img src="https://streak-stats.demolab.com?user=TridentifyIshaan&hide_border=true&background=fff5f5&stroke=B91C1C&ring=7F1D1D&fire=EF4444&currStreakNum=7F1D1D&sideNums=B91C1C&currStreakLabel=7F1D1D&sideLabels=DC2626&dates=DC2626" alt="streak stats" />
 </p>
 
-## Milestones
-
-- Built and maintained multiple AI-first repositories in active development.
-- Consistent project momentum across Python, Jupyter, Java, and JavaScript tracks.
-- Expanded from learning experiments toward product-oriented implementations.
+## GitHub Stats
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=TridentifyIshaan&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=shadow_red)](https://github-stats-extended.vercel.app/api?username=TridentifyIshaan&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=shadow_red)
 
 ## Contribution Snake
 

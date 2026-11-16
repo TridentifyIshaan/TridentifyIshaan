@@ -205,7 +205,8 @@
 </p>
 
 ## Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=tridentifyishaan&theme=dark_lover)](https://github.com/tridentifyishaan/github-profile-trophy)
+
+[![trophy](https://github-trophy-jagratadeb.vercel.app/?username=tridentifyishaan&theme=dark_lover)](https://github.com/tridentifyishaan/github-profile-trophy)
 
 ## Contribution Graph
 

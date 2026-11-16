@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:3B0A0A,30:7F1D1D,60:B91C1C,100:EF4444&text=Ishaan%20Rastogi&fontColor=FFF1F2&fontSize=52&fontAlignY=35&desc=AI%2FML%20Engineer%20in%20the%20Making%20%7C%20Python Backend%20%2B%20Automations&descAlignY=58" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:3B0A0A,30:7F1D1D,60:B91C1C,100:EF4444&text=Ishaan%20Rastogi&fontColor=FFF1F2&fontSize=52&fontAlignY=35&desc=AI%2FML%20Engineer%20in%20the%20Making%20%7C%20Python%20Backend%20%2B%20Automations&descAlignY=58" width="100%" alt="header" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?javfont=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=EF4444&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=74&lines=Building+AI+products+that+actually+ship;Learning+hard%2C+building+faster%2C+iterating+daily)](https://github.com/TridentifyIshaan)
 
